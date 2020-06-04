@@ -1,0 +1,12 @@
+{
+  "name": "apidoc-typescript-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tivakorn/apidoc-typescript-boilerplate.git",
+  "author": "tival603 <tival603@chare.postbox.in.th>",
+  "license": "MIT",
+  "scripts": {
+    "dev" : "open build/index.html",
+    "build" : "apidoc -i src/ -o build/"
+  }
+}
